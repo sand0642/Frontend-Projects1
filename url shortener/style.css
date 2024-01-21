@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsla(0, 100%, 50%, 1);
+    background-image: url(img/bgi2.jpg);
+    background-size:cover;
+    
+}
+
+.container{
+    border-radius: 10px;
+    padding: 20px 30px;
+    border: 3px solid #000;
+    text-align: center;
+    min-width: 500px;
+    background:linear-gradient(rgb(176, 199, 240),rgb(238, 136, 219))
+}
+
+.container i{
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+    
+}
+
+label{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+    display: block;
+    font-weight:bold;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+input::placeholder{
+    color: #816e6e;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    width: 100%;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+textarea{
+    resize: none;
+}
